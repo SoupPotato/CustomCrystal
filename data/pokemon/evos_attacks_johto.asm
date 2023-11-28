@@ -106,16 +106,7 @@ EvosAttacksPointers2::
 ChikoritaEvosAttacks:
 	dbbw EVOLVE_LEVEL, 16, BAYLEEF
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, GROWL
-	dbw 8, RAZOR_LEAF
-	dbw 12, REFLECT
-	dbw 15, POISONPOWDER
-	dbw 22, SYNTHESIS
-	dbw 29, BODY_SLAM
-	dbw 36, LIGHT_SCREEN
-	dbw 43, SAFEGUARD
-	dbw 50, SOLARBEAM
+	dbw 6, LEECH_LIFE
 	db 0 ; no more level-up moves
 
 BayleefEvosAttacks:
